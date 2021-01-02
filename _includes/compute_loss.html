@@ -43,6 +43,7 @@
     loss_html += "GS건설 원금은 약 " + (gs_org/100000000).toFixed(1) + "억 <br>"
     loss_html += "GS건설 이자는 약 " + (gs_interest/100000000).toFixed(1) + "억 <br>"
     loss_html += "</div>"
+    loss_html += "<br>"
 
     // 일반분양자 손해 계산(2020가합50013)
     // 현재 소송건 세대는 284세대
@@ -52,10 +53,11 @@
     loss_total += ilbun;
 
     loss_html += "<div>"
-    loss_html += "---일반분양자 등기지연소송에 대한 손해(이자제외)---<br>"
+    loss_html += "-----일반분양자 등기지연소송에 대한 손해(이자제외)-----<br>"
     loss_html += "일반분양자 배상액은 세대당 연 약300만원 추정되고, 284세대가 소송에 참여했습니다.<br>"
     loss_html += "배상액은 이자제외 약 " + (ilbun/100000000).toFixed(1) + "억 <br>"
     loss_html += "</div>"
+    loss_html += "<br>"
 
     // 법조 5.6억
     // 루비콘 2억
