@@ -75,7 +75,7 @@
       document.getElementById(detail_id).innerHTML = loss_html;
     } catch (e) {console.log(e)}
     try {
-      document.getElementById(total_loss_id).innerHTML = "약" + (loss_total/100000000).toFixed(1) + "억원(" + Math.floor(loss_total) +"원)";
+      document.getElementById(total_loss_id).innerHTML = "약" + (loss_total/100000000).toFixed(1) + "억원";
     } catch (e) {console.log(e)}
     try {
       var cp = 1 - (loss_total/173800000000);
