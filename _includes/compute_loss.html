@@ -14,7 +14,7 @@
 
 
     var loss_total = 0;
-    var loss_html = "여기서 포함된 손해액 내역<br>";
+    var loss_html = "";
     // GS건설 손해 계산
     // 1. 직접대여금(준공이전) 미상환액 (도급계약서 제 39조 2항/금전소비대차 계약서 제 6조)
     var gs1 =  372237120;
@@ -38,8 +38,8 @@
     loss_total += gs_org + gs_interest;
 
     loss_html += "<div>"
-    loss_html += "GS건설 원금은 약" + (gs_org/100000000).toFixed(1) + "억 <br>"
-    loss_html += "GS건설 이자는 약" + (gs_interest/100000000).toFixed(1) + "억 <br>"
+    loss_html += "GS건설 원금은 약 " + (gs_org/100000000).toFixed(1) + "억 <br>"
+    loss_html += "GS건설 이자는 약 " + (gs_interest/100000000).toFixed(1) + "억 <br>"
     loss_html += "</div>"
 
     // 일반분양자 손해 계산(2020가합50013)
@@ -50,8 +50,8 @@
     loss_total += ilbun;
 
     loss_html += "<div>"
-    loss_html += "세대당 연 300만원 추정되고, 284세대가 소송에 참여했습니다." + (ilbun/100000000).toFixed(1) + "억 <br>"
-    loss_html += "일반분양자 배상액은 이자제외 약" + (ilbun/100000000).toFixed(1) + "억 <br>"
+    loss_html += "일반분양자 배상액은 세대당 연 약300만원 추정되고, 284세대가 소송에 참여했습니다."
+    loss_html += "배상액은 이자제외 약 " + (ilbun/100000000).toFixed(1) + "억 <br>"
     loss_html += "</div>"
 
     // 법조 5.6억
@@ -60,7 +60,7 @@
     loss_total += 560000000 + 200000000 + 200000000;
 
     loss_html += "<div>"
-    loss_html += "조합이 패소한 소송에 의한 손해액은(이자제외)"
+    loss_html += "조합이 패소한 소송에 의한 손해액은(이자제외)<br>"
     loss_html += "법무법인 법조에 5.6억<br>"
     loss_html += "루비콘에 2억<br>"
     loss_html += "마광X(OS)에 2억<br>"
