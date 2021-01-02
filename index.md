@@ -11,20 +11,19 @@
 _무권대리인(전미경)이 사용한 금액은 현재 제외 되어있으나,  
 우리가 추인(추후인정) 하면 손해액에 추가할 예정_
 
-<div>
+<br>
 현재 조합의 손해액은 총
 <span id="total_loss"></span>
 입니다.
-</div>
-<div>
+<br>
 현재 비례율은
 <span id="current_percentage"></span>
 입니다.
-</div>
-<div>귀하의 현재 추가 분담금은
+<br>
+**귀하의 현재 추가 분담금은
 <span id="your_loss"></span>
-입니다.
-</div>
+입니다.**
+<br>
 손해액 계산에 포함된 내역은 다음과 같습니다.
 <div id="detail">
 </div>
