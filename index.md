@@ -23,7 +23,16 @@ _무권대리인(전미경)이 사용한 금액은 현재 제외 되어있으나
 <font color="red"><b>
 귀하의 현재 추가 분담금은 <span id="your_loss"></span>입니다.
 </b></font>
+1년 후, 조합의 손해액은 총
+<span id="later_total_loss"></span>
+입니다.
 <br>
+1년후, 비례율은
+<span id="later_current_percentage"></span>
+입니다.
+<font color="red"><b>
+1년후, 추가 분담금은 <span id="later_your_loss"></span>입니다.
+</b></font>
 #### 손해액 계산에 포함된 내역은 다음과 같습니다.
 <div id="detail">
 </div>
