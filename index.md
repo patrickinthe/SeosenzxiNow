@@ -21,7 +21,9 @@ _무권대리인(전미경)이 사용한 금액은 현재 제외 되어있으나
 <span id="current_percentage"></span>
 입니다.
 <br>
+<font color="red">
 **귀하의 현재 추가 분담금은
+</font>
 <span id="your_loss"></span>
 입니다.**
 <br>
