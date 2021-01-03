@@ -128,8 +128,10 @@
   }
 
   document.getElementById("your_money").addEventListener("input", function () {
-    computeLoss("your_money","total_loss", "current_percentage", "your_loss", "detail")
+    computeLoss("your_money","total_loss", "current_percentage", "your_loss", "detail",
+               "later_total_loss", "later_current_percentage", "later_your_loss")
   });
   document.getElementById("your_money").value = 24000
-  computeLoss("your_money","total_loss", "current_percentage", "your_loss", "detail")
+  computeLoss("your_money","total_loss", "current_percentage", "your_loss", "detail",
+             "later_total_loss", "later_current_percentage", "later_your_loss")
 </script>
